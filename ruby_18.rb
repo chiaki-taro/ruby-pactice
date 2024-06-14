@@ -6,7 +6,11 @@
 # 第一引数aと第二引数bで証言の真偽が一致しない場合であれば、Falseを出力すること
 
 def police_trouble(a, b)
-  # ここに条件式を記述する
+  if (a && b) || (!a && !b)
+    puts "True"
+  else
+    puts "False"
+  end
 end
 
 # 呼び出し例
